@@ -1,0 +1,82 @@
+﻿@model IEnumerable<Savemor.Models.Category>
+@{
+    ViewBag.Title = "Home Page";
+
+    // Get the top-level categories
+    var Categories =
+        from c in Model
+        where c.ParentID == 0
+        orderby c.SortOrder
+        select c;
+
+    // Turn this list of categories into an actual list (Inherits from IEnumerable)
+    var itemList = Categories.ToList();
+
+    // Get the largest percentage saving
+    decimal MaximumSaving =
+        (from c in Categories
+         where c.ParentID == 0
+         orderby c.SortOrder
+         select c.Saving).Max();
+}
+<table class="home">
+    @for (int i = 0; i <= itemList.Count - 1; i += 4)
+    {
+        <tr>
+            <td class="autowidth">&nbsp;</td>
+            <td class="home">
+                <img src="../images/savebubble.png" class="savebubble" />
+                <a class="category" href="@Url.Action("Index", "Products", new RouteValueDictionary(new { CategoryID = itemList[i].ID }))">
+                    <img class="category" src="../images/Category/@Html.DisplayFor(modelItem => itemList[i].Image)" alt="@Html.DisplayFor(modelItem => itemList[i].Name) image" />
+                </a>
+                <br />
+                @Html.DisplayFor(modelItem => itemList[i].Name)
+                <span class="saving">@Html.DisplayFor(modelItem => itemList[i].Saving)%</span>
+                <img src="../images/ticksmall.png" class="categorytick" />
+            </td>
+            <td class="autowidth">&nbsp;</td>
+            <td class="home">
+                @if (i + 1 < itemList.Count)
+                {
+                    <img src="/images/savebubble.png" class="savebubble" />
+                    <a class="category" href="@Url.Action("Index", "Products", new RouteValueDictionary(new { CategoryID = itemList[i+1].ID }))">
+                        <img class="category" src="/images/Category/@Html.DisplayFor(modelItem => itemList[i + 1].Image)" alt="@Html.DisplayFor(modelItem => itemList[i + 1].Name) image" />
+                    </a>
+                    <br />
+                    @Html.DisplayFor(modelItem => itemList[i + 1].Name)
+                    <span class="saving">@Html.DisplayFor(modelItem => itemList[i + 1].Saving)%</span>
+                    <img src="/images/ticksmall.png" class="categorytick" />
+                }
+            </td>
+            <td class="autowidth">&nbsp;</td>
+            <td class="home">
+                @if (i + 2 < itemList.Count)
+                {
+                    <img src="/images/savebubble.png" class="savebubble" />
+                    <a class="category" href="@Url.Action("Index", "Products", new RouteValueDictionary(new { CategoryID = itemList[i+2].ID }))">
+                        <img class="category" src="/images/Category/@Html.DisplayFor(modelItem => itemList[i + 2].Image)" alt="@Html.DisplayFor(modelItem => itemList[i + 2].Name) image" />
+                    </a>
+                    <br />
+                    @Html.DisplayFor(modelItem => itemList[i + 2].Name)
+                    <span class="saving">@Html.DisplayFor(modelItem => itemList[i + 2].Saving)%</span>
+                    <img src="/images/ticksmall.png" class="categorytick" />
+                }
+            </td>
+            <td class="autowidth">&nbsp;</td>
+            <td class="home">
+                @if (i + 3 < itemList.Count)
+                {
+                    <img src="/images/savebubble.png" class="savebubble" />
+                    <a class="category" href="@Url.Action("Index", "Products", new RouteValueDictionary(new { CategoryID = itemList[i+3].ID }))">
+                        <img class="category" src="/images/Category/@Html.DisplayFor(modelItem => itemList[i + 3].Image)" alt="@Html.DisplayFor(modelItem => itemList[i + 3].Name) image" />
+                    </a>
+                    <br />
+                    @Html.DisplayFor(modelItem => itemList[i + 3].Name)
+                    <span class="saving">@Html.DisplayFor(modelItem => itemList[i + 3].Saving)%</span>
+                    <img src="/images/ticksmall.png" class="categorytick" />
+                }
+            </td>
+            <td class="autowidth">&nbsp;</td>
+        </tr>
+    }
+</table>

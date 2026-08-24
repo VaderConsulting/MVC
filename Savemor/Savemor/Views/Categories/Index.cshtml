@@ -1,0 +1,87 @@
+﻿@model IEnumerable<Savemor.Models.Category>
+
+@{
+    ViewBag.Title = "Categories";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Parent)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Headline)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Image)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Saving)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SortOrder)
+        </th>
+        @*<th>
+            @Html.DisplayNameFor(model => model.CustomString1)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CustomString2)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CustomString3)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CustomString4)
+        </th>*@
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Parent)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Headline)
+        </td>
+        <td>
+            <img src="/images/@Html.DisplayFor(modelItem => item.Image)" alt="@Html.DisplayFor(modelItem => item.Name) image" />
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Saving)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SortOrder)
+        </td>
+        @*<td>
+            @Html.DisplayFor(modelItem => item.CustomString1)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CustomString2)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CustomString3)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CustomString4)
+        </td>*@
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ID })
+        </td>
+    </tr>
+}
+
+</table>

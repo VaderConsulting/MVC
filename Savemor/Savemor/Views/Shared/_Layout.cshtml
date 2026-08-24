@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>@ViewBag.Title - Savemor Pharmacy</title>
+        <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <meta name="viewport" content="width=device-width" />
+        @Styles.Render("~/Content/css")
+        @Scripts.Render("~/bundles/modernizr")
+    </head>
+    <body>
+        <div class="page-wrapper">
+            <header>
+                <div class="content-wrapper">
+                    <div class="float-left">
+                        <div class="site-title">
+                            <a href="@Url.Action("Index", "Home")">
+                            <img src="@Url.Content("../Images/sm_logo.png")" /></a>
+                        </div>
+                    </div>
+                    <div class="float-right">
+                        <section id="login">
+                            @Html.Partial("_LoginPartial")
+                        </section>
+                        <nav>
+                            <div class="menu">
+                                @Html.ActionLink("Home", "Index", "Home")
+                                @Html.ActionLink("View-Cart", "Cart", "Home")   
+                            </div>
+                        </nav>
+                    </div>
+				    <div class="greenborder">
+					    <img class="green-border-left" src="../images/greenborderleft.png" />
+					    <img class="green-border-middle" src="../images/greenbordermiddle.png" />
+					    <img class="green-border-right" src="../images/greenborderright.png" />
+				    </div>
+				    <table class="searchtable">
+						<tr>
+							<td class="search-table-left"><img class="search-bar-left" src="../images/searchbarleft.png" /></td>
+							<td class="search-table-middle">
+								<img class="search-bar-middle" src="../images/searchbarmiddle.png" />
+								<input title="Search by brand name, category, product name, illness or condition" id="Search" />
+							</td>
+							<td class="search-table-right">
+								<img class="search-bar-right1" src="../images/searchbarright1.png" />
+								<img class="search-bar-right2" src="../images/searchbarright2.png" />
+								<a href="index.htm">
+									<img class="search-bar-right-url" src="../images/searchbarright3.png" />
+								</a>
+								<img class="search-bar-right4" src="../images/searchbarright4.png" />
+								<img class="search-bar-right5" src="../images/searchbarright5.png" />
+							</td>
+						</tr>
+				    </table>
+                </div>
+            </header>
+            <div id="body">
+                @RenderSection("featured", required: false)
+                <section class="content-wrapper main-content clear-fix">
+                    @RenderBody()
+                </section>
+            </div>
+            <footer>
+                <div class="footer">
+                    <nav>
+                        <br />
+                        <h3>Save up to 85% on your Health and Beauty!</h3>
+                        <br />
+                        <div class="footer-links">
+                            <table class="footer-links">
+                                <tr>
+                                    <td>@Html.ActionLink("Free Services", "Services", "Home")</td>
+                                    <td>@Html.ActionLink("Stores", "Stores", "Home")</td>
+                                    <td>@Html.ActionLink("Catalogue", "Catalogues", "Home")</td>
+                                    <td>@Html.ActionLink("Return Policy", "ReturnPolicy", "Home")</td>
+                                    <td>@Html.ActionLink("Disclaimers", "Disclaimers", "Home")</td>
+                                    <td>@Html.ActionLink("Privacy & Terms", "PrivacyAndTerms", "Home")</td>
+                                </tr>
+                            </table>  
+                        </div>
+                        <br />
+                        <div class="copyright">Savemor Pharmacy Copyright &copy; @DateTime.Now.Year<br /></div>
+                        <div class="webdesign">Website by <a href="http://www.vaderconsulting.com.au">Vader Consulting</a></div>
+                    </nav>
+                </div>
+            </footer>
+
+            @Scripts.Render("~/bundles/jquery")
+            @RenderSection("scripts", required: false)
+            </div>
+    </body>
+</html>

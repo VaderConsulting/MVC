@@ -1,0 +1,280 @@
+﻿@model Savemor.Models.ProductsPageViewModel
+
+@{
+    ViewBag.Title = "Products";
+    
+    // Turn this list of categories into an actual list (Inherits from IEnumerable)
+    var ProductList = Model.ShortProductInfo.ToList();
+    var CategoryList = Model.Category.ToList();
+}
+<table class="CategoryMenu">
+	<tr class="emptyrow">
+        <td class="emptycell">&nbsp;</td>
+	</tr>
+    <tr>
+		<td class="CategorySpace">&nbsp;</td>
+            @for (int i=0; i< Model.Category.Count(); i++)
+        {
+		    <td class="CategoryItem"><a href="@Url.Action("Index", "Products", new RouteValueDictionary(new { CategoryID = CategoryList[i].ID.ToString() }))">@CategoryList[i].Name</a></td>
+        }
+        <td class="CategoryItem"><a href="@Url.Action("Services","Home")">Free Services</a></td>
+		<td class="CategorySpace">&nbsp;</td>
+	</tr>
+</table>
+<table class="products">
+    <tr class="productspagingbar">
+        <td class="productspagingbar" colspan="4">Showing 1-@ProductList.Count of @ProductList.Count products</td>
+        <td class="productsdropdownbox">
+            <select class="SelectionDropdownBox">
+                <option value="ViewAll" selected="selected">View All</option>
+                <option value="Condition">Condition</option>
+                <option value="BrandName">Brand name</option>
+                <option value="Category">Category</option>
+            </select>
+        </td>
+    </tr>
+    <tr class="greenbackground">
+        <td colspan="4" class="topborder4columns">&nbsp;</td>
+        <td rowspan="999" class="selectionlist">
+            <div class="selectionlist">
+                Antioxidants<br />
+                Antioxidants<br />
+                Antioxidants<br />
+                Antioxidants<br />
+                Antioxidants<br />
+                Antioxidants<br />
+                Antioxidants<br />
+                Antioxidants<br />
+                Antioxidants<br />
+                Antioxidants<br />
+            </div>
+        </td>
+    </tr>
+    @{
+        for (int i = 0; i <= ProductList.Count - 1; i += 4)
+        { 
+            <tr>
+                @{
+                    for (int j = i; j < i + 4; j++)
+                    {
+                        if (j< ProductList.Count)
+                        {
+                            <td class="productimage">
+                                <a href="@Url.Action("Product", "Products", new RouteValueDictionary(new { ProductID = ProductList[j].ID }))">
+                                    <img class="productmedium" src="@Html.DisplayFor(modelItem => ProductList[j].Image)" alt="@Html.DisplayFor(modelItem => ProductList[j].Name) image" />
+                                </a>
+                            </td>
+                        }
+                    }
+                }
+            </tr>
+            <tr>
+                @{
+                    for (int j = i; j < i + 4; j++)
+                    {
+                        if (j< ProductList.Count)
+                        {
+                            <td class="productname">
+                                <span class="productname">@Html.DisplayFor(modelItem => ProductList[j].Name)</span>
+                            </td>       
+                        }
+                    }
+                }
+            </tr>
+            <tr>
+                @{
+                    for (int j = i; j < i + 4; j++)
+                    {
+                        if (j< ProductList.Count)
+                        {
+                            <td class="productinfo">
+                                @{
+                                    decimal Price = ProductList[j].Price;
+                                    decimal RecommendedPrice = ProductList[j].RecommendedPrice;
+                                    decimal Saving = RecommendedPrice - Price;
+                                    string SaveText = "Save up to $" + Saving;
+                            
+                                    if (Saving <= 0m) 
+                                    {
+                                        SaveText = "";
+                                    }
+                            
+                                    <span class="productprice">Our price: $@Html.DisplayFor(modelItem => ProductList[j].Price)</span><br />
+                                    <span class="saveamount">@SaveText</span><br />
+                                    <br />
+                                    <span class="productbuttons">
+								        <a href="#"><img class="productbutton" src="../images/RP_menu.png" /></a>
+								        <a href="#"><img class="productbutton" src="../images/SP_menu.png" /></a>
+								        <a href="#"><img class="productbutton" src="../images/MI_menu.png" /></a>
+								        <a href="#"><img class="productbutton" src="../images/ATC_menu.png" /></a>
+							        </span>
+                                }        
+                            </td>
+                        }
+                    }
+                }
+            </tr>
+        }
+    }
+    <tr>
+        <td>&nbsp;</td>
+    </tr>
+</table>
+
+@*<p>
+    @Html.ActionLink("Create New", "Create")
+</p>*@
+@*<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.UPI)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PrivateLabelUPI)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Supplier)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Image)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Thumbnail)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Measure)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Units)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Price)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.OppositionPrice)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RecommendedPrice)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SpecialPrice)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Active)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SUSMP)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Rank)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Limit)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.InStoreOnly)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Description)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.KnownValueItem)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CustomString1)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CustomString2)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CustomString3)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CustomString4)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.UPI)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PrivateLabelUPI)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Supplier)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Image)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Thumbnail)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Measure)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Units)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Price)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.OppositionPrice)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RecommendedPrice)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SpecialPrice)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Active)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SUSMP)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Rank)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Limit)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.InStoreOnly)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Description)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.KnownValueItem)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CustomString1)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CustomString2)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CustomString3)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CustomString4)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ID })
+        </td>
+    </tr>
+}
+
+</table>*@

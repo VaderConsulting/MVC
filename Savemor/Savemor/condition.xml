@@ -1,0 +1,1028 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Condition>
+    <id>32</id>
+    <name>Headache</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>33</id>
+    <name>Dental Pain</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>34</id>
+    <name>Back Pain</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>35</id>
+    <name>Muscle Pain</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>36</id>
+    <name>Fever</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>37</id>
+    <name>Blood Pressure</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>38</id>
+    <name>Joint Pain</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>39</id>
+    <name>Period Pain</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>40</id>
+    <name>Arthritis</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>41</id>
+    <name>Sort Throat</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>42</id>
+    <name>Cold &amp; Flu</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>43</id>
+    <name>Heart Health</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>44</id>
+    <name>Cardiovascular Health</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>45</id>
+    <name>Eye Health</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>46</id>
+    <name>Brain Function</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>47</id>
+    <name>Memory</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>48</id>
+    <name>Osteoarthritis</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>49</id>
+    <name>Weight Loss</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>50</id>
+    <name>Skin Care</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>51</id>
+    <name>PMT</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>52</id>
+    <name>Vitamins</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>53</id>
+    <name>Pain Relief</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>54</id>
+    <name>Energy</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>55</id>
+    <name>Bone and Muscle Health</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>56</id>
+    <name>Immunity</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>57</id>
+    <name>Men Reproductive Health</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>58</id>
+    <name>Stress</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>59</id>
+    <name>Skincare</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>60</id>
+    <name>Wound Care</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>61</id>
+    <name>Skin Elasticity and Suppleness</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>62</id>
+    <name>Capillary Health</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>63</id>
+    <name>General Health</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>64</id>
+    <name>Muscle and Nerve Health</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>65</id>
+    <name>Swimmers Ear</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>66</id>
+    <name>Ear Ache</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>67</id>
+    <name>Ear Wax</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>68</id>
+    <name>Ear Pain</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>69</id>
+    <name>Cough</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>70</id>
+    <name>Stomach Cramps</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>71</id>
+    <name>Diarrhoea </name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>72</id>
+    <name>Constipation</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>73</id>
+    <name>Hayfever</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>74</id>
+    <name>Hives</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>75</id>
+    <name />
+    <description />
+  </Condition>
+  <Condition>
+    <id>76</id>
+    <name>Dermatitis</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>77</id>
+    <name>Heartburn</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>78</id>
+    <name>Upset Stomach</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>79</id>
+    <name>Toothache</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>80</id>
+    <name>Baby Accessories</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>81</id>
+    <name>Baby Feeding</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>82</id>
+    <name>Thrush</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>83</id>
+    <name>Anti-fungal</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>84</id>
+    <name>Tinea</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>85</id>
+    <name>Jock Itch</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>86</id>
+    <name>Nail Infections</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>87</id>
+    <name>Beach Fungus</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>88</id>
+    <name>Fungal Nappy Rash</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>89</id>
+    <name>Ringworm</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>90</id>
+    <name>Pregnancy</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>91</id>
+    <name>Breastfeeding</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>92</id>
+    <name>Travel Sickness</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>93</id>
+    <name>Teething</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>94</id>
+    <name>Mouth Ulcers</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>95</id>
+    <name>Oral Abrasions</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>96</id>
+    <name>Eczema</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>97</id>
+    <name>Insect Bites</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>98</id>
+    <name>Nasal Congestion</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>99</id>
+    <name>Iron Deficiency</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>100</id>
+    <name>Migraine</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>101</id>
+    <name>Nausea</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>102</id>
+    <name>Rheumatic Pain</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>103</id>
+    <name>Gout</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>104</id>
+    <name>Cholesterol</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>105</id>
+    <name>Respiratory System</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>106</id>
+    <name>Digestive</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>107</id>
+    <name>Urinary Tract</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>108</id>
+    <name>Incontinence</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>109</id>
+    <name>Cystitis</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>110</id>
+    <name>Inflammation</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>111</id>
+    <name>Celluar Health</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>112</id>
+    <name>Hair Care</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>113</id>
+    <name>Triglycerides</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>114</id>
+    <name>Nail Care</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>115</id>
+    <name>Circulation</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>116</id>
+    <name>Sinus</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>117</id>
+    <name>Fatigue</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>118</id>
+    <name>Mens Health</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>119</id>
+    <name>Prostate Health</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>120</id>
+    <name>Metabolism</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>121</id>
+    <name>Cold Sore</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>122</id>
+    <name>Liver Health</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>123</id>
+    <name>Anti-bacterial</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>124</id>
+    <name>Anti-viral</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>125</id>
+    <name>Anti-protozoal</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>126</id>
+    <name>Anti-Parasitic</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>127</id>
+    <name>Cartilage</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>128</id>
+    <name>Anxiety</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>129</id>
+    <name>Mood and Emotions</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>130</id>
+    <name>Sugar Balance</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>131</id>
+    <name>Osteoporosis</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>132</id>
+    <name>Motion Sickness</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>133</id>
+    <name>Sea Sickness</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>134</id>
+    <name>Sleep</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>135</id>
+    <name>Insomnia</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>136</id>
+    <name>Nervous Tension</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>137</id>
+    <name>Red Blood Cell Health</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>138</id>
+    <name>Allergies</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>139</id>
+    <name>Weight Gain</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>140</id>
+    <name>Thyroid</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>141</id>
+    <name>Stomach</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>142</id>
+    <name>Nappy Rash</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>143</id>
+    <name>Prickly Heat</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>144</id>
+    <name>Skin Chafing</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>145</id>
+    <name>Heat Rash</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>146</id>
+    <name>Skin Irritation</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>147</id>
+    <name>Sweaty Feet</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>148</id>
+    <name>Baby Skin Care</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>149</id>
+    <name>Baby Crying</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>150</id>
+    <name>Bedwetting</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>151</id>
+    <name>Baby Swimming</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>152</id>
+    <name>Baby Hygiene</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>153</id>
+    <name>Dry Skin</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>154</id>
+    <name>Baby Colic</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>155</id>
+    <name>Baby Reflux</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>156</id>
+    <name>Baby Gas</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>157</id>
+    <name>Baby Teething</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>158</id>
+    <name>Baby Abdominal Pain</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>159</id>
+    <name>Baby Cold &amp; Flu</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>160</id>
+    <name>Lochia</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>161</id>
+    <name>Lochia</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>162</id>
+    <name>Postpartum</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>163</id>
+    <name>Lack of Sun</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>164</id>
+    <name>Baby Hair Care</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>165</id>
+    <name>Sunburn</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>166</id>
+    <name>Minor Burn and Scald</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>167</id>
+    <name>Baby Tummy Upset</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>168</id>
+    <name>Thiamine Deficiency</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>169</id>
+    <name>Fibrositis</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>170</id>
+    <name>Snoring</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>171</id>
+    <name>Irritable Bowel Syndrome</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>172</id>
+    <name>Bowel Health</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>173</id>
+    <name>Asthma</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>174</id>
+    <name>Alzheimer</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>175</id>
+    <name>Diabetes</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>176</id>
+    <name>Epilepsy</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>177</id>
+    <name>Rheumatoid Arthritis</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>178</id>
+    <name>Dry Mouth</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>179</id>
+    <name>Excercises for Flexibility</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>180</id>
+    <name>Exercise and the Heart</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>181</id>
+    <name>Pelvic Floor Exercies</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>182</id>
+    <name>Sprains and Strains</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>183</id>
+    <name>Contact Lens Care</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>184</id>
+    <name>Glaucoma</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>185</id>
+    <name>Red Dry Eyes</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>186</id>
+    <name>Bladder Urine Control</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>187</id>
+    <name>Chickenpox</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>188</id>
+    <name>NRT</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>189</id>
+    <name>Stop Smoking</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>190</id>
+    <name>Oral Health</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>191</id>
+    <name>Preventing Falls</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>192</id>
+    <name>Staying a Non-Smoker</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>193</id>
+    <name>Travel Health</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>194</id>
+    <name>Haemorrhoids</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>195</id>
+    <name>Heartburn and Indigestion</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>196</id>
+    <name>Threadworms</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>197</id>
+    <name>Vomiting and Diarrhoea</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>198</id>
+    <name>Fat and Cholesterol</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>199</id>
+    <name>Fibre &amp; Bowel Health</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>200</id>
+    <name>Weight and Health</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>201</id>
+    <name>Alcohol</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>202</id>
+    <name>Antibiotics</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>203</id>
+    <name>Carer Support</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>204</id>
+    <name>Complementary Medicines</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>205</id>
+    <name>Drug Overdose</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>206</id>
+    <name>First Aid the Home</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>207</id>
+    <name>Generic Medicines</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>208</id>
+    <name>Help with Medicines Costs</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>209</id>
+    <name>Medicines and Driving</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>210</id>
+    <name>Methodone</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>211</id>
+    <name>Safer Injecting</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>212</id>
+    <name>The PBS and You</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>213</id>
+    <name>Wise use of Medicines</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>214</id>
+    <name>Acne</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>215</id>
+    <name>Breast Awareness</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>216</id>
+    <name>Contraception</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>217</id>
+    <name>Dandruff</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>218</id>
+    <name>Eczema and Dermatitis</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>219</id>
+    <name>Erectile Dysfunction</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>220</id>
+    <name>Genital Herpes</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>221</id>
+    <name>Hair Loss</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>222</id>
+    <name>Head Lice</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>223</id>
+    <name>HIV AIDS</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>224</id>
+    <name>Menopause</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>225</id>
+    <name>Menstrual Chart</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>226</id>
+    <name>Oral Contraceptives</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>227</id>
+    <name>Period Problems</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>228</id>
+    <name>Pregnancy and Ovulation</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>229</id>
+    <name>Psoriasis</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>230</id>
+    <name>Scabies</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>231</id>
+    <name>Sun Care</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>232</id>
+    <name>Shingles</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>233</id>
+    <name>Vaginal Health</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>234</id>
+    <name>Staff Training</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>235</id>
+    <name>Scar and Stretch Mark Therapy</name>
+    <description />
+  </Condition>
+  <Condition>
+    <id>236</id>
+    <name>Dry Eyes</name>
+    <description />
+  </Condition>
+</NewDataSet>

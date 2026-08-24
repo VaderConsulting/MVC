@@ -1,0 +1,1140 @@
+﻿/* generic stuff */
+
+html {
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+	overflow-y: scroll;
+}
+
+body {
+    /*background-color: #ffd000;  Yellow */
+    background-image:url('../images/bg.png');
+    background-repeat:repeat;
+    color: #333;
+    font-size: .85em;
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+}
+
+a {
+    color: #333;
+    outline: none;
+    padding-left: 3px;
+    padding-right: 3px;
+    text-decoration: underline;
+}
+
+a:link, a:visited, a:active, a:hover {
+    color: #333;
+	text-decoration: none;
+}
+
+a:hover {
+    background-color: transparent /* #b61f0b;  Red */
+}
+
+header, footer, hgroup, nav, section {
+    display: block;
+}
+
+mark {
+    background-color: #a6dbed;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.float-left {
+    float: left;
+	position: relative;
+	left: 40px;
+	z-index: 2;
+}
+
+.float-right {
+    float: right;
+	position: relative;
+	z-index: 2;
+}
+
+.clear-fix:after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+    color: #000;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.75em;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+h4 {
+    font-size: 1.1em;
+}
+
+h5, h6 {
+    font-size: 1em;
+}
+
+h5 a:link, h5 a:visited, h5 a:active {
+    padding: 0;
+    text-decoration: none;
+}
+
+/* DEFAULT class for web dev to force 'normal' text if need be :P */
+.DEFAULT {
+	font-family: "Verdana";
+	font-size: 12pt;
+	font-weight: normal;
+	color: black;
+	background-color: white;
+	line-height: 20px;
+	display: block;
+}
+
+/* main overall layout, inc header and footer */
+
+.content-wrapper {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.page-wrapper {
+    background-color: #ffd000; /* Yellow */
+    border: 2px solid #008D25; /* Green */
+    margin: 10px auto auto auto;
+	max-width: 1200px;
+}
+
+div.textwithmargins {
+	margin: 0px 20px 20px 20px;
+}
+
+div.textwithmargins h2 {
+	text-decoration: underline;
+}
+
+div.textwithmargins h3 {
+	text-decoration: underline;
+}
+
+#body {
+    background-color: #ffd000; /* Yellow */
+    clear: both;
+    padding-bottom: 0px;
+}
+
+header .content-wrapper {
+    padding-top: 10px;
+}
+
+footer {
+    clear: both;
+    background-color: #008D25; /* Green */
+    font-size: .8em;
+    height: 140px;
+    text-align: center;
+    width: 100%;
+	margin: auto;
+}
+
+table.footer-links {
+	width: 100%;
+	height: 30px;
+	position: relative;
+	top: 5px;
+	table-layout: fixed;
+}
+
+.footer h3 {
+    font-size: 2.2em;
+	color: white;
+	display: inline;
+}
+
+.footer-links a {
+	font-family: "Arial";
+	font-weight: bold;
+	font-size: 1.2em;
+	color: white;
+	text-transform:uppercase;
+}
+
+.copyright {
+	font-family: "Arial";
+	font-weight: bold;
+	font-size: 1.2em;
+	color: white;
+	position: relative;
+	top: 10px;
+}
+
+.webdesign {
+	font-family: "Arial";
+	font-size: 0.8em;
+	color: white;
+	position: relative;
+	top: 20px;
+}
+
+.webdesign a {
+	color: white;
+}
+
+/* site title, search and buttons */
+.site-title {
+    color: #c8c8c8;
+    font-family: Rockwell, Consolas, "Courier New", Courier, monospace;
+    font-size: 2.3em;
+}
+
+.site-title a, .site-title a:hover, .site-title a:active {
+    background: none;
+    color: transparent;
+    outline: none;
+    text-decoration: none;
+}
+
+.greenborder {
+	position: relative;
+	left: 25px;
+	top: 96px;
+	margin: 0px 0px 0px 0px;
+}
+
+img.green-border-left {
+	position: absolute;
+	top: -30px;
+	left: -10px;
+	margin: 0px 0px -88px 0px;
+}
+
+img.green-border-middle {
+	position: absolute;
+	top: -30px;
+	left: 3px;
+	width: 90%;
+	height: 88px;
+	margin: 0px 0px -88px 0px;
+}
+
+img.green-border-right {
+	position: absolute;
+	top: -30px;
+	left: 90%;
+	margin: 0px 0px -88px 0px;
+}
+
+table.searchtable {
+	border-spacing: 0px;
+	position: relative;
+	top: -150px;
+	left: 0px;
+	padding: 0px;
+	width: 100%;
+	margin: 0px 0px -160px 0px;
+}
+
+td.search-table-left {
+	width: 480px;
+	text-align: right;
+	padding: 0px;
+}
+
+td.search-table-middle {
+	padding: 0px;
+}
+
+td.search-table-right {
+	width: 246px;
+	padding: 0px;
+}
+
+img.search-bar-left {
+	position: relative;
+	top: 30px;
+	left: 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+img.search-bar-middle {
+	position: relative;
+	top: 51px;
+	left: 0px;
+	height: 45px;
+	width: 100%;
+	margin: 0px 0px 1px 0px;
+}
+
+img.search-bar-right1 {
+	border: none;
+	position: relative;
+	top: 9px;
+	left: 0px;
+	margin: 0px 0px -1px 0px;
+	z-index: 0;
+	float: left;
+	font-size: 0;
+}
+
+img.search-bar-right2 {
+	border: none;
+	position: relative;
+	top: 10px;
+	left: 0px;
+	margin: 0px 0px -1px 0px;
+	z-index: 0;
+	float: left;
+	font-size: 0;
+}
+
+img.search-bar-right-url {
+	border: none;
+	position: relative;
+	top: 10px;
+	left: 0px;
+	margin: 0px 0px -1px 0px;
+	z-index: 0;
+	float: left;
+	font-size: 0;
+}
+
+img.search-bar-right4 {
+	border: none;
+	position: relative;
+	top: -9px;
+	left: 0px;
+	margin: 0px 0px -1px 0px;
+	z-index: 0;
+	float: left;
+	font-size: 0;
+}
+
+img.search-bar-right5 {
+	border: none;
+	position: relative;
+	top: -8px;
+	left: 0px;
+	margin: 0px 0px -1px 0px;
+	z-index: 0;
+	float: left;
+	font-size: 0;
+}
+
+#Search {
+	position: relative;
+	left: -2px;
+	top: 4px;
+	float: left;
+	width: 98%;
+	border: 1px solid white;
+	outline: none;
+}
+
+table.accountbuttons {
+	position: relative;
+	right: -15px;
+}
+
+td.registerbutton {
+	border: 0px solid black;
+	text-align: center;
+}
+
+td.loginbutton {
+	border: 0px solid black;
+	text-align: center;
+}
+
+#RegisterLink {
+	background-image:url('../images/greenbutton.png');
+	background-color: transparent;
+	background-repeat: no-repeat;
+	padding: 0px 21px 21px 22px;
+	color: white;
+	text-transform: uppercase;
+}
+
+#LoginLink {
+	background-image:url('../images/greenbutton.png');
+	background-color: transparent;
+	background-repeat: no-repeat;
+	padding: 0px 27px 21px 28px;
+	color: white;
+	text-transform: uppercase;
+}
+
+.menu {
+	position: relative;
+	right: 108px;
+	top: 30px;
+	width: 160px;
+	
+	font-size: 0.8em;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	word-spacing: 20px;
+	
+	border: 0 solid transparent;
+	border-radius: 3px;
+	box-shadow: 2px 2px 2px black;
+	background-color: white;
+	padding: 5px;
+}
+
+.menu a:hover {
+	background-color: #ffd000;
+}
+
+/* categories menu */
+
+table.CategoryMenu {
+	border-collapse: collapse;
+	width: 100%;
+	position: relative;
+	bottom: 2px;
+}
+
+td.CategorySpace {
+	background-color: transparent;
+}
+
+td.CategoryItem {
+	border-top: 4px solid #b61f0b;
+	border-bottom: 8px solid #b61f0b;
+	border-left: 2px solid #b61f0b;
+	border-right: 2px solid #b61f0b;
+	
+	background-color: transparent;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: "Arial";
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+td.CategoryItem:hover {
+	border-color: #008D25;
+}
+
+/* home page */
+
+table.home {
+	text-align: center;
+	width: 98%;
+	border-collapse: collapse;
+}
+
+td.home {
+	border: 0px solid black;
+	max-width: 200px;
+	min-width: 200px;
+	height: 210px;
+	vertical-align: bottom;
+	font-family: "Verdana";
+	font-size: 1.1em;
+}
+
+td.autowidth {
+	border: 0px solid black;
+	width: 6%;
+}
+
+img.category {
+	border: 0px none transparent;
+}
+
+a.category:hover {
+	background-color: transparent;
+}
+
+img.categorytick {
+	position: relative;
+	top: 20px;
+	left: -7px;
+	float: right;
+	margin: -47px 0px 0px 0px;
+}
+
+img.savebubble {
+	position: relative;
+	top: 30px;
+	float: left;
+	margin: -47px 0px 0px 0px;
+}
+
+span.saving {
+	position: relative;
+	top: -103px;
+	left: 20px;
+	float: left;
+	margin: -40px 0px 0px 0px;
+	color: white;
+	font-size: 1.8em;
+	font-weight: bold;
+}
+
+/* login page */
+#loginForm {
+    border-right: 0px none transparent;
+    float: left;
+    width: 55%;
+}
+
+    #loginForm .validation-error {
+        display: block;
+        margin-left: 15px;
+    }
+
+    #loginForm .validation-summary-errors ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    #loginForm .validation-summary-errors li {
+        display: inline;
+        list-style: none;
+        margin: 0;
+    }
+
+    #loginForm input {
+        width: 250px;
+    }
+
+    #loginForm input[type="checkbox"],
+    #loginForm input[type="submit"],
+    #loginForm input[type="button"],
+    #loginForm button {
+        width: auto;
+    }
+
+#socialLoginForm {
+    margin-left: 40px;
+    float: left;
+    width: 40%;
+}
+
+    #socialLoginForm h2 {
+        margin-bottom:  5px;
+    }
+
+#socialLoginList button {
+    margin-bottom: 12px;
+}
+
+#logoutForm {
+    display: inline;
+}
+
+#login {
+    position: relative;
+	top: 20px;
+	right: 75%;
+}
+
+#login a {
+    text-decoration: none;
+}
+
+#login a.username {
+    background: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: underline;
+}
+
+#login a:hover {
+	background-color: transparent;
+}
+
+/* product and products and catalogue pages */
+
+select.SelectionDropdownBox {
+	width: 100%;
+	height: 100%;
+}
+
+table.products {
+	border: 0px solid black;
+	border-collapse: collapse;
+	background-color: white;
+	width: 100%;
+	table-layout: fixed;
+}
+
+table.productdetails {
+	width: 100%;
+	text-align: left;
+}
+
+tr.emptyrow {
+	max-height: 10px;
+}
+
+
+tr.emptyrow {
+	line-height: 6px;
+}
+
+tr.greentopborder {
+	border-top: 2px solid #008D25; /* green */
+}
+
+tr.greenbackground {
+	background-color: #008D25; /* green */
+}
+
+tr.productspagingbar {
+	line-height: 30px;
+	padding: 0px;
+}
+
+td.topborder4columns {
+	height: 1px;
+	line-height: 0;
+	padding: 0;
+}
+
+td.20pxwide {
+	width: 20px;
+}
+
+td.productspagingbar {
+	border-top: 1px solid #9A9A9A; /* grey */
+	border-bottom: 1px solid #9A9A9A; /* grey */
+	height: 20px;
+	text-align: center;
+	background-color: #FFF4D8; /* cream */
+}
+
+td.productspagingbargreen {
+	border-top: 1px solid #9A9A9A; /* grey */
+	border-bottom: 1px solid #9A9A9A; /* grey */
+	height: 20px;
+	text-align: center;
+	background-color: #008D25; /* green */
+	color: white;
+}
+
+td.productsdropdownbox {
+	border: 0px solid black;
+	color: white;
+	background-color: #008D25; /* green */
+	vertical-align: top;
+	width: 300px;
+}
+
+td.selectionlist {
+	vertical-align: top;
+}
+
+div.selectionlist {
+	color: white;
+	overflow: auto;
+}
+
+td.productimage {
+	border: 0px solid black;
+	width: 225px;
+	height: 200px;
+	text-align: center;
+	background-color: white;
+}
+
+td.productname {
+	text-align: center;
+	vertical-align: top;
+	background-color: #FFF4D8; /* cream */
+}
+
+td.productinfo {
+	border: 0px solid black;
+	max-width: 250px;
+	text-align: center;
+	vertical-align: bottom;
+	background-color: #FFF4D8; /* cream */
+	padding-bottom: 20px;
+}
+
+td.productinfo a {
+	padding: 0px;
+}
+
+td.productlargebuttons {
+	text-align: right;
+}
+
+img.productmedium {
+	max-width: 200px;
+	max-height: 200px;
+	border: 0px none transparent;
+	outline: none;
+	word-wrap: break-word;
+}
+
+span.productname {
+	color: black;
+	height: 40px;
+}
+
+span.productnamelargegreen {
+	color: #008D25; /* green */
+	font-family: "Verdana";
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+span.productprice {
+	color: #008D25; /* green */
+	font-family: "Verdana";
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+span.saveamount {
+	color: red;
+	font-family: "Verdana";
+	font-size: 1.1em;
+	font-weight: bold;
+	text-shadow: 1px 1px 0 black;
+}
+
+span.productbuttons {
+	padding: auto;
+}
+
+img.productbutton {
+	width: 53px;
+	height: 40px;
+	border: none;
+	float: left;
+	font-size: 0;
+}
+
+td.relatedsimilarproductsbar {
+	border-top: 1px solid #9A9A9A; /* grey */
+	border-bottom: 1px solid #9A9A9A; /* grey */
+	height: 30px;
+	text-align: center;
+	background-color: #008D25; /* green */
+	color: white;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+div.productdescription {
+	padding: 30px;
+	background-color: #FFF4D8;
+}
+
+/* catalogue page specific */
+/* remember that there are some classes in the above section that are used on the catalogue page */
+/* the \9 conditional has been used in here to apply to only Internet Explorer browsers */
+
+table.catalogue {
+	border: 0px solid black;
+	border-collapse: collapse;
+	background-color: white;
+	width: 100%;
+}
+
+tr.productspagingbar {
+	line-height: 30px;
+	padding: 0px;
+}
+
+td.cataloguepagingbar {
+	border-top: 1px solid #9A9A9A; /* grey */
+	border-bottom: 1px solid #9A9A9A; /* grey */
+	height: 20px;
+	text-align: center;
+	background-color: #FFF4D8; /* cream */
+}
+
+td.catalogueduration {
+	border-top: 1px solid #9A9A9A; /* grey */
+	border-bottom: 1px solid #9A9A9A; /* grey */
+	height: 20px;
+	text-align: center;
+	background-color: #FFF4D8; /* cream */
+}
+
+td.autowidthcatalogue {
+	border: 0px solid black;
+	width: 6%;
+}
+
+td.catalogueimage {
+	border: 0px solid black;
+	max-width: 150px;
+	width: 150px;
+	max-height: 300px;
+	text-align: center;
+	background-color: white;
+	vertical-align: top;
+}
+
+img.productsmall {
+	width: 150px;
+	max-height: 150px;
+	border: none;
+	outline: none;
+	word-wrap: break-word;
+}
+
+img.cataloguebubble {
+	position: relative;
+	bottom: 40px;
+	float: right;
+	margin: -41px 0px 0px 0px;
+	width: 60px;
+}
+
+span.cataloguebubble {
+	position: relative;
+	right: 11px;
+	bottom: 75px;
+	
+	float: right;
+	margin: 0px 0px -100px 0px;
+	
+	color: red;
+	font-family: "Verdana";
+	font-weight: bold;
+	font-size: 0.7em;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 9px;
+	
+}
+
+img.catalogueboxsmall {
+	position: relative;
+	bottom: 8px;
+	float: right;
+	margin: -42px 0px 0px 0px;
+	height: 42px;
+	width: 65px
+}
+
+img.catalogueboxmedium {
+	position: relative;
+	bottom: 8px;
+	float: right;
+	margin: -42px 0px 0px 0px;
+	height: 42px;
+	width: 85px
+}
+
+img.catalogueboxlarge {
+	position: relative;
+	bottom: 8px;
+	float: right;
+	margin: -42px 0px 0px 0px;
+	height: 42px;
+	width: 100px;
+}
+
+span.cataloguebox {
+	position: relative;
+	right: 4px;
+	right: 0px\9;  /* IE Only fix */
+	left: 5px\9;  /* IE Only fix */
+	bottom: 32px;
+	
+	max-width: 120px;
+	
+	float: right;
+	margin: 0px 0px -100px 0px;
+	
+	color: white;
+	font-family: "Verdana";
+	font-weight: bold;
+	font-size: 2em;
+	letter-spacing: 0px;
+	text-align: center;
+	text-shadow: -1px -1px 0 black, -1px 1px 0 black, 1px -1px 0 black, 1px 1px 0 black;
+	line-height: 8px;
+}
+
+p.dollarsign {
+	float: left;
+	position: relative;
+	bottom: 15px;
+	left: 10px;
+	left: 0px\9;  /* IE Only fix */
+	font-size: 0.5em;
+}
+
+p.superscript {
+	float: right;
+	position: relative;
+	right: 5px;
+	right: 15px\9;  /* IE Only fix */
+	bottom: 15px;
+	font-size: 0.4em;
+}
+
+p.subscript {
+	float: right;
+	position: relative;
+	left: 13px;
+	left: 5px\9;  /* IE Only fix */
+	bottom: 10px;
+	bottom: 0px\9;  /* IE Only fix */
+	font-size: 0.3em;
+	font-weight: 100;
+}
+
+tr.cataloguename {
+	text-align: center;
+	vertical-align: top;
+	background-color: white;
+}
+
+div.cataloguename {
+	font-size: 1em;
+	line-height: 15px;
+}
+
+div.cataloguedisclaimer {
+	position: relative;
+	top: 5px;
+	font-size: 0.7em;
+	line-height: 12px;
+}
+
+/* stores page */
+
+table.storedetails {
+	border: 0px solid black;
+	padding: 10px;
+}
+
+tr.storebentley {
+	border: 0px solid black;
+}
+
+tr.storemoora {
+	border: 0px solid black;
+}
+
+tr.storestewarts {
+	border: 0px solid black;
+}
+
+td.storegreenbox {
+	background-color: #008D25;
+	border-radius: 10px;
+	width: 210px;
+	height: 160px;
+	text-align: center;
+	color: white;
+}
+
+td.storeopeningtimes {
+	border: 0px solid black;
+	vertical-align: top;
+}
+
+div.storegreenboxtitle {
+	border: 0px solid black;
+	font-size: 1.3em;
+	line-height: 18px;
+	padding-bottom: 10px;
+}
+
+div.storegreenboxinfo {
+	border: 0px solid black;
+	line-height: 16px;
+}
+
+ul.storeopeningtimeslist {
+	list-style: none inside none;
+}
+
+/* catalogue page */
+
+div.catalogueflash {
+	text-align: center;
+}
+
+/* forms */
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+    fieldset legend {
+        display: none;
+    }
+
+    fieldset ol {
+        padding: 0;
+        list-style: none;
+    }
+
+        fieldset ol li {
+            padding-bottom: 5px;
+        }
+
+label {
+    display: block;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+label.checkbox {
+    display: inline;
+}
+
+input, textarea {
+    border: 1px solid #e2e2e2;
+    background: #fff;
+    color: #333;
+    font-size: 1.2em;
+    margin: 5px 0 6px 0;
+    padding: 5px;
+    width: 300px;
+}
+
+textarea {
+    font-family: inherit;
+    width: 500px;
+}
+
+    input:focus, textarea:focus {
+        border: 1px solid #7ac0da;
+    }
+
+    input[type="checkbox"] {
+        background: transparent;
+        border: inherit;
+        width: auto;
+    }
+
+    input[type="submit"],
+    input[type="button"],
+    button {
+        background-color: #d3dce0;
+        border: 1px solid #787878;
+        cursor: pointer;
+        font-size: 1.2em;
+        font-weight: 600;
+        padding: 7px;
+        margin-right: 8px;
+        width: auto;
+    }
+
+    td input[type="submit"],
+    td input[type="button"],
+    td button {
+        font-size: 1em;
+        padding: 4px;
+        margin-right: 4px;
+    }
+
+/* info and errors 
+----------------------------------------------------------*/
+
+.message-info {
+    border: 1px solid;
+    clear: both;
+    padding: 10px 20px;
+}
+
+.message-error {
+    clear: both;
+    color: #e80c4d;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+}
+
+.message-success {
+    color: #7ac0da;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+}
+
+.error {
+    color: #e80c4d;
+}
+
+/* styles for validation helpers 
+----------------------------------------------------------*/
+.field-validation-error {
+    color: #e80c4d;
+    font-weight: bold;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #e80c4d;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #e80c4d;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+/********************
+*   Mobile Styles   *
+********************/
+@media only screen and (max-width: 860px) {
+    /* header
+    ----------------------------------------------------------*/
+
+    /* logo */
+
+    /* login */
+
+    /* menu */
+
+    /* main layout
+    ----------------------------------------------------------*/
+ 
+    /* page content */
+
+    /* ordered list */
+
+     /* features */
+ 
+    /* forms */
+ 
+    /* login page */
+ 
+    /* footer
+    ----------------------------------------------------------*/
+
+}

@@ -1,0 +1,1031 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Ingredient>
+    <active_ingredient_id>7</active_ingredient_id>
+    <active_ingredient_description>Asprin</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>12</active_ingredient_id>
+    <active_ingredient_description>Panadol</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>17</active_ingredient_id>
+    <active_ingredient_description>Ibuprofen</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>18</active_ingredient_id>
+    <active_ingredient_description>Rosehip Oil/Orange</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>19</active_ingredient_id>
+    <active_ingredient_description>Blood pressure monitor</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>20</active_ingredient_id>
+    <active_ingredient_description>Glucosamine</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>21</active_ingredient_id>
+    <active_ingredient_description>Thermometers</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>22</active_ingredient_id>
+    <active_ingredient_description>Omega 3</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>23</active_ingredient_id>
+    <active_ingredient_description>Eicosapentaenoic Acid </active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>24</active_ingredient_id>
+    <active_ingredient_description>Docosahexaenoic Acid </active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>25</active_ingredient_id>
+    <active_ingredient_description>Nappies</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>27</active_ingredient_id>
+    <active_ingredient_description>Cimicifuga racemosa rhizome extract</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>28</active_ingredient_id>
+    <active_ingredient_description>Vitamins with Iron Supplement</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>29</active_ingredient_id>
+    <active_ingredient_description>Bilberry</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>30</active_ingredient_id>
+    <active_ingredient_description>Multi Vitamin</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>31</active_ingredient_id>
+    <active_ingredient_description>Multi Vitamin Men's</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>32</active_ingredient_id>
+    <active_ingredient_description>Vitamin C</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>33</active_ingredient_id>
+    <active_ingredient_description>Magnesium</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>34</active_ingredient_id>
+    <active_ingredient_description>Isopropyl Alcohol</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>35</active_ingredient_id>
+    <active_ingredient_description>Phenazone/Benzocaine</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>36</active_ingredient_id>
+    <active_ingredient_description>Dextromethrophan Hydrobromide</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>37</active_ingredient_id>
+    <active_ingredient_description>Dextromethrophan Hydrobromide/Paracetamol</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>38</active_ingredient_id>
+    <active_ingredient_description>Hyoscyamine sulfate/Atropine sulfate/Hyoscine hydrobromide</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>39</active_ingredient_id>
+    <active_ingredient_description>Mefenamic Acid</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>40</active_ingredient_id>
+    <active_ingredient_description>Guaiphenesin</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>41</active_ingredient_id>
+    <active_ingredient_description>Desloratadine</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>42</active_ingredient_id>
+    <active_ingredient_description>Loratadine</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>43</active_ingredient_id>
+    <active_ingredient_description>Loratadine/Pseudoephedrine</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>44</active_ingredient_id>
+    <active_ingredient_description>Chlorpheniramine Maleate/Phenylephrine Hydrochloride </active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>45</active_ingredient_id>
+    <active_ingredient_description>Oxymetazoline Hydrochloride</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>46</active_ingredient_id>
+    <active_ingredient_description>Naphazoline Hydrochloride</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>47</active_ingredient_id>
+    <active_ingredient_description>Magnesium/B6</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>48</active_ingredient_id>
+    <active_ingredient_description>Zinc</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>49</active_ingredient_id>
+    <active_ingredient_description>Zinc/Vit A/Magnesium</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>50</active_ingredient_id>
+    <active_ingredient_description>Baby Bottle Brush</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>51</active_ingredient_id>
+    <active_ingredient_description>Carmellose Sodium</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>52</active_ingredient_id>
+    <active_ingredient_description>Carmellose Sodium/Glycerin</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>53</active_ingredient_id>
+    <active_ingredient_description>Asprin/Sodium Bicarbonate/Citric Acid</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>54</active_ingredient_id>
+    <active_ingredient_description>Baby Bottle</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>55</active_ingredient_id>
+    <active_ingredient_description>Breast Pad</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>56</active_ingredient_id>
+    <active_ingredient_description>Breast Pump</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>57</active_ingredient_id>
+    <active_ingredient_description>Toddler Cup</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>58</active_ingredient_id>
+    <active_ingredient_description>Baby Bottle/Brush/Pacifier</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>59</active_ingredient_id>
+    <active_ingredient_description>Baby Milk Powder Dispenser</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>60</active_ingredient_id>
+    <active_ingredient_description>Clotrimazole</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>61</active_ingredient_id>
+    <active_ingredient_description>Cetylpyridinium chloride/Benzocaine</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>62</active_ingredient_id>
+    <active_ingredient_description>Multi Vitamin Women</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>63</active_ingredient_id>
+    <active_ingredient_description>Multi Vitamin Pregnancy and Breastfeeding</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>64</active_ingredient_id>
+    <active_ingredient_description>Hyoscine hydrobromide</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>65</active_ingredient_id>
+    <active_ingredient_description>Naproxen Sodium</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>66</active_ingredient_id>
+    <active_ingredient_description>Lignocaine/Salicylic Acid/Tannic Acid</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>67</active_ingredient_id>
+    <active_ingredient_description>Promethazine Hydrochloride</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>68</active_ingredient_id>
+    <active_ingredient_description>Ferrous Fumarate</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>69</active_ingredient_id>
+    <active_ingredient_description>Ferrous Sulphate</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>70</active_ingredient_id>
+    <active_ingredient_description>Metoclopramide/Paracetamol</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>71</active_ingredient_id>
+    <active_ingredient_description>Asprin/Codeine phosphate</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>72</active_ingredient_id>
+    <active_ingredient_description>Chondrus extract/Camphor/Menthol</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>73</active_ingredient_id>
+    <active_ingredient_description>Phenylephrine Hydrochloride/Paracetamol</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>74</active_ingredient_id>
+    <active_ingredient_description>Phenylephrine Hydrochloride</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>75</active_ingredient_id>
+    <active_ingredient_description>Loperamide hydrochloride</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>76</active_ingredient_id>
+    <active_ingredient_description>Ammonium Bicarbonate</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>77</active_ingredient_id>
+    <active_ingredient_description>Triamcinolone Acetonide</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>78</active_ingredient_id>
+    <active_ingredient_description>Celery</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>79</active_ingredient_id>
+    <active_ingredient_description>Plant Sterols</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>80</active_ingredient_id>
+    <active_ingredient_description>Cod Liver Oil</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>81</active_ingredient_id>
+    <active_ingredient_description>Andrographis paniculata</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>82</active_ingredient_id>
+    <active_ingredient_description>Senna</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>83</active_ingredient_id>
+    <active_ingredient_description>Multi Vitamin Pregnancy</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>84</active_ingredient_id>
+    <active_ingredient_description>CoQ10</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>85</active_ingredient_id>
+    <active_ingredient_description>Hederae Helix</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>86</active_ingredient_id>
+    <active_ingredient_description>Cranberry</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>87</active_ingredient_id>
+    <active_ingredient_description>Echinacea &amp; Zinc</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>88</active_ingredient_id>
+    <active_ingredient_description>Echinacea</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>89</active_ingredient_id>
+    <active_ingredient_description>Echinacea &amp; Garlic</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>90</active_ingredient_id>
+    <active_ingredient_description>Omega 6</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>91</active_ingredient_id>
+    <active_ingredient_description>Vitamin B plus</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>92</active_ingredient_id>
+    <active_ingredient_description>Omega 3 + 6</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>93</active_ingredient_id>
+    <active_ingredient_description>Omega 3 + 6 + 9</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>94</active_ingredient_id>
+    <active_ingredient_description>Comfrey</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>95</active_ingredient_id>
+    <active_ingredient_description>Folic Acid</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>96</active_ingredient_id>
+    <active_ingredient_description>Ginkgo</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>97</active_ingredient_id>
+    <active_ingredient_description>Ginko/Brahmi</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>98</active_ingredient_id>
+    <active_ingredient_description>Glucosamine/Omega 3</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>99</active_ingredient_id>
+    <active_ingredient_description>Horse Radish/Garlic/Vit C</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>100</active_ingredient_id>
+    <active_ingredient_description>Detox Kit</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>101</active_ingredient_id>
+    <active_ingredient_description>Korean Ginseng</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>102</active_ingredient_id>
+    <active_ingredient_description>Lysine/Vitiamin C/Zinc</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>103</active_ingredient_id>
+    <active_ingredient_description>Perna Canaliculus</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>104</active_ingredient_id>
+    <active_ingredient_description>Vitamin C/Vit E/Zinc</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>105</active_ingredient_id>
+    <active_ingredient_description>Milk Thistle</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>106</active_ingredient_id>
+    <active_ingredient_description>Hair/Skin/Nails</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>107</active_ingredient_id>
+    <active_ingredient_description>Garlic</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>108</active_ingredient_id>
+    <active_ingredient_description>Olive Leaf</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>109</active_ingredient_id>
+    <active_ingredient_description>Cape Aloes/Cascara</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>110</active_ingredient_id>
+    <active_ingredient_description>Saw Palmetto</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>111</active_ingredient_id>
+    <active_ingredient_description>Saw Palmetto/Nettle Root</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>112</active_ingredient_id>
+    <active_ingredient_description>Low Gi Meal Replacement</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>113</active_ingredient_id>
+    <active_ingredient_description>Silicon/Sodium</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>114</active_ingredient_id>
+    <active_ingredient_description>St Johns Wort</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>115</active_ingredient_id>
+    <active_ingredient_description>Chromium/ Sugar Balance Formula</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>116</active_ingredient_id>
+    <active_ingredient_description>Calcium/Manesium/D3</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>117</active_ingredient_id>
+    <active_ingredient_description>Ginger</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>118</active_ingredient_id>
+    <active_ingredient_description>Valerian</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>119</active_ingredient_id>
+    <active_ingredient_description>Vitamin B12</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>120</active_ingredient_id>
+    <active_ingredient_description>Vitamin B6</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>121</active_ingredient_id>
+    <active_ingredient_description>Vitamin E</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>122</active_ingredient_id>
+    <active_ingredient_description>Vitamin D</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>123</active_ingredient_id>
+    <active_ingredient_description>Vitamin D3</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>124</active_ingredient_id>
+    <active_ingredient_description>Luralean</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>125</active_ingredient_id>
+    <active_ingredient_description>Celery/Juniper</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>126</active_ingredient_id>
+    <active_ingredient_description>Lactium &amp; Zizphus Jujuba</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>127</active_ingredient_id>
+    <active_ingredient_description>Fenugreek</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>128</active_ingredient_id>
+    <active_ingredient_description>Iodine</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>129</active_ingredient_id>
+    <active_ingredient_description>Krill Oil</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>130</active_ingredient_id>
+    <active_ingredient_description>Lysine</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>131</active_ingredient_id>
+    <active_ingredient_description>Multi Vitamin &amp; Fish Oil</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>132</active_ingredient_id>
+    <active_ingredient_description>Iron</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>133</active_ingredient_id>
+    <active_ingredient_description>Slippery Elm</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>134</active_ingredient_id>
+    <active_ingredient_description>Vitamin A</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>135</active_ingredient_id>
+    <active_ingredient_description>Baby Formula</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>136</active_ingredient_id>
+    <active_ingredient_description>Nipple Protector</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>137</active_ingredient_id>
+    <active_ingredient_description>Nipple Protector</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>138</active_ingredient_id>
+    <active_ingredient_description>Baby Bottle Steriliser</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>139</active_ingredient_id>
+    <active_ingredient_description>Glucosamine/Chondroitin</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>140</active_ingredient_id>
+    <active_ingredient_description>Vitamin C/Zinc</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>141</active_ingredient_id>
+    <active_ingredient_description>Magnesium/B6/Zinc</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>142</active_ingredient_id>
+    <active_ingredient_description>Water/Polysorbate 20/Phenoxyethanol/Methylparaben/Ethylparaben/Butylparaben/Propylparaben/Isobutylparaben/2-bromo-2-nitropropane-1,3-diol</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>143</active_ingredient_id>
+    <active_ingredient_description>Baby Wipes</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>144</active_ingredient_id>
+    <active_ingredient_description>Baby Powder</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>145</active_ingredient_id>
+    <active_ingredient_description>Zinc Oxide</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>146</active_ingredient_id>
+    <active_ingredient_description>Zinc Oxide</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>147</active_ingredient_id>
+    <active_ingredient_description>Baby Bath</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>148</active_ingredient_id>
+    <active_ingredient_description>Baby Lotion</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>149</active_ingredient_id>
+    <active_ingredient_description>Nappy Sack</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>150</active_ingredient_id>
+    <active_ingredient_description>Nappy Sack</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>151</active_ingredient_id>
+    <active_ingredient_description>Dill Seed Oil/FilipendulaUlmira/Meadowsweet</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>152</active_ingredient_id>
+    <active_ingredient_description>Vit C/Iron/Antioxidant</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>153</active_ingredient_id>
+    <active_ingredient_description>Baby Teat</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>154</active_ingredient_id>
+    <active_ingredient_description>Baby Soother</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>155</active_ingredient_id>
+    <active_ingredient_description>Perfume</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>156</active_ingredient_id>
+    <active_ingredient_description>Chlorophyll</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>157</active_ingredient_id>
+    <active_ingredient_description>Baby Nappies</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>158</active_ingredient_id>
+    <active_ingredient_description>Baby Swimming Nappies</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>159</active_ingredient_id>
+    <active_ingredient_description>Calamine/Almond Oil/Salicylic Acid/Zinc Oxide</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>160</active_ingredient_id>
+    <active_ingredient_description>Choline Salicylate</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>161</active_ingredient_id>
+    <active_ingredient_description>Bryonia/Chamomilla/Colocynthis/Mag Phos</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>162</active_ingredient_id>
+    <active_ingredient_description>Multi Vitamin/Iron</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>163</active_ingredient_id>
+    <active_ingredient_description>Aconitum Nap/Actaea Spicata/Belladonna/Chamomilla/Colocynthis/Kreosotum/Merc Sol/Nux Vomica/Silicea</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>164</active_ingredient_id>
+    <active_ingredient_description>Phenylephrine HCI/Chlorpheniramine Maleate</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>165</active_ingredient_id>
+    <active_ingredient_description>Paracetamol</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>166</active_ingredient_id>
+    <active_ingredient_description>Maternity Pad</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>167</active_ingredient_id>
+    <active_ingredient_description>Vitamin C/Zinc/Olive leaf</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>168</active_ingredient_id>
+    <active_ingredient_description>Globe Artichoke/St Marys Thistle</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>169</active_ingredient_id>
+    <active_ingredient_description>Slimaluma/Protein</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>170</active_ingredient_id>
+    <active_ingredient_description>Echinacea/Garlic/Zinc/Vitamin C</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>171</active_ingredient_id>
+    <active_ingredient_description>Baby Shampoo</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>172</active_ingredient_id>
+    <active_ingredient_description>Baby Oil</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>173</active_ingredient_id>
+    <active_ingredient_description>Petrolatum/Eucalyptus Extract</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>174</active_ingredient_id>
+    <active_ingredient_description>Dexpanthenol</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>175</active_ingredient_id>
+    <active_ingredient_description>Moisturiser/UV Protection</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>176</active_ingredient_id>
+    <active_ingredient_description>Benzalkonium Chloride</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>177</active_ingredient_id>
+    <active_ingredient_description>Aconitum Nap/Belladonna/Hepar Sulf/Kali Bich/Antim.Tart/Phosphorus/Bryonia/Drosera/Spongia Tosta/Ipecacuanha</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>178</active_ingredient_id>
+    <active_ingredient_description>Wheat Dextrin</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>179</active_ingredient_id>
+    <active_ingredient_description>Simethicone</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>180</active_ingredient_id>
+    <active_ingredient_description>Multivitamin Mens Fertility</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>181</active_ingredient_id>
+    <active_ingredient_description>Vitamin B1</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>182</active_ingredient_id>
+    <active_ingredient_description>Calcium/Vitamin D</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>183</active_ingredient_id>
+    <active_ingredient_description>Arnica</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>184</active_ingredient_id>
+    <active_ingredient_description>Arnica plus</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>185</active_ingredient_id>
+    <active_ingredient_description>Indian Coclkle/False Unicorn root</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>186</active_ingredient_id>
+    <active_ingredient_description>Honey Bee/Histaminum</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>187</active_ingredient_id>
+    <active_ingredient_description>Monkshood/Baneberry</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>188</active_ingredient_id>
+    <active_ingredient_description>Calcium</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>189</active_ingredient_id>
+    <active_ingredient_description>Lecithin</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>190</active_ingredient_id>
+    <active_ingredient_description>Lactobacillus plantarum</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>191</active_ingredient_id>
+    <active_ingredient_description>Amorolfine</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>192</active_ingredient_id>
+    <active_ingredient_description>Lanolin</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>193</active_ingredient_id>
+    <active_ingredient_description>Zinc Oxide/Castor Oil</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>194</active_ingredient_id>
+    <active_ingredient_description>Ammonium Bicarb/Anise Oil/Cassia Oil/Dill Seed Oil/Magnesium Carbonate Light</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>195</active_ingredient_id>
+    <active_ingredient_description>Aluminium Chlorohydrate/Benzoin Sumatra/Dimethicone 350/Paraffin Liquid/Zinc Oxide</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>196</active_ingredient_id>
+    <active_ingredient_description>Petrolatum</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>197</active_ingredient_id>
+    <active_ingredient_description>Choline Salicylate/Cetalkonium Chloride/Menthol</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>198</active_ingredient_id>
+    <active_ingredient_description>Piperonyl Butoxide/Pyrethrins</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>199</active_ingredient_id>
+    <active_ingredient_description>Dry Shampoo</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>200</active_ingredient_id>
+    <active_ingredient_description>Tea Tree Oil/Chamomile</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>201</active_ingredient_id>
+    <active_ingredient_description>Coloured Hair Spray</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>202</active_ingredient_id>
+    <active_ingredient_description>Tea Tree Oil</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>203</active_ingredient_id>
+    <active_ingredient_description>Tea Tree Oil/Petitgrain/Lime</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>204</active_ingredient_id>
+    <active_ingredient_description>Tea Tree Oil/Corn Starch</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>205</active_ingredient_id>
+    <active_ingredient_description>Tea Tree Oil Cream</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>206</active_ingredient_id>
+    <active_ingredient_description>Tea Tree Oil/Lavender/Lime</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>207</active_ingredient_id>
+    <active_ingredient_description>Shampoo</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>208</active_ingredient_id>
+    <active_ingredient_description>Hair Conditioner</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>209</active_ingredient_id>
+    <active_ingredient_description>Coloxyl/Senna</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>210</active_ingredient_id>
+    <active_ingredient_description>Coloxyl</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>211</active_ingredient_id>
+    <active_ingredient_description>Poloxamer</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>212</active_ingredient_id>
+    <active_ingredient_description>Hair Mousse</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>213</active_ingredient_id>
+    <active_ingredient_description>Meal Supplement</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>214</active_ingredient_id>
+    <active_ingredient_description>Lactobacillus acidophilus/Bifidobacterium lactis</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>215</active_ingredient_id>
+    <active_ingredient_description>Iron Plus</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>216</active_ingredient_id>
+    <active_ingredient_description>Magnesium/Taurine/Vitamin C/Calcium/Potassium/B6</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>217</active_ingredient_id>
+    <active_ingredient_description>Hair Colour</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>218</active_ingredient_id>
+    <active_ingredient_description>Panax notoginseng</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>219</active_ingredient_id>
+    <active_ingredient_description>Rosa Laevigata/Smilax China</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>220</active_ingredient_id>
+    <active_ingredient_description>Guarana/Bitter Orange/Ginger</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>221</active_ingredient_id>
+    <active_ingredient_description>Coffea Canephora/Svetol/Caffeine</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>222</active_ingredient_id>
+    <active_ingredient_description>Epsom Salts</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>223</active_ingredient_id>
+    <active_ingredient_description>Lanolin/Wool Fat/Parafin</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>224</active_ingredient_id>
+    <active_ingredient_description>Lactobacillus Acidophilus/Casei/Bifidobacterium Lactis/Bifidum</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>225</active_ingredient_id>
+    <active_ingredient_description>Head Lice Defence Spray</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>226</active_ingredient_id>
+    <active_ingredient_description>Eucalyptus Oil/Lemon Tea Tree Oil</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>227</active_ingredient_id>
+    <active_ingredient_description>Vitamin C/A/B/E/Zinc/Echinacea</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>228</active_ingredient_id>
+    <active_ingredient_description>Tar (Pine)/Coal Tar Solution/Salicylic Acid</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>229</active_ingredient_id>
+    <active_ingredient_description>Ispaghula Husk Dry</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>230</active_ingredient_id>
+    <active_ingredient_description>Aluminium Hydroxide/Magnesium</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>231</active_ingredient_id>
+    <active_ingredient_description>Glucose</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>232</active_ingredient_id>
+    <active_ingredient_description>Calamine</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>233</active_ingredient_id>
+    <active_ingredient_description>Castor Oil</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>234</active_ingredient_id>
+    <active_ingredient_description>Cloves Oil</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>235</active_ingredient_id>
+    <active_ingredient_description>Citronella</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>236</active_ingredient_id>
+    <active_ingredient_description>Benzoin Tincture</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>237</active_ingredient_id>
+    <active_ingredient_description>Hydrogen Peroxide</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>238</active_ingredient_id>
+    <active_ingredient_description>Potassium Permangante</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>239</active_ingredient_id>
+    <active_ingredient_description>Vitamin B Complex</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>240</active_ingredient_id>
+    <active_ingredient_description>Hair Treatment</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>241</active_ingredient_id>
+    <active_ingredient_description>Hair Spray</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>242</active_ingredient_id>
+    <active_ingredient_description>Hair Powder</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>243</active_ingredient_id>
+    <active_ingredient_description>Saccharomyces cerevisiae</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>244</active_ingredient_id>
+    <active_ingredient_description>Lactobacillus rhamnosus/Lactobacillus acidophilus/Bifidobacterium lactis</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>245</active_ingredient_id>
+    <active_ingredient_description>Psyllium Husk</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>246</active_ingredient_id>
+    <active_ingredient_description>Inulin</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>247</active_ingredient_id>
+    <active_ingredient_description>Peppermint Oil</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>248</active_ingredient_id>
+    <active_ingredient_description>Multi Vitamin Menopause</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>249</active_ingredient_id>
+    <active_ingredient_description>Cumerone</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>250</active_ingredient_id>
+    <active_ingredient_description>Anti-Dandruff Conditioner</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>251</active_ingredient_id>
+    <active_ingredient_description>Magnesium/B6/Rutin</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>252</active_ingredient_id>
+    <active_ingredient_description>Anti-Dandruff Conditioner</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>253</active_ingredient_id>
+    <active_ingredient_description>Anti-Dandruff Shampoo</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>254</active_ingredient_id>
+    <active_ingredient_description>Head Lice Treatment</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>255</active_ingredient_id>
+    <active_ingredient_description>Meal Replacement</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>256</active_ingredient_id>
+    <active_ingredient_description>Echinacea Purpurea/Justicia Adhatoda/Melaleuca Oil/Stemona Sessilifolia</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>257</active_ingredient_id>
+    <active_ingredient_description>Head Lice Comb</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>258</active_ingredient_id>
+    <active_ingredient_description>Pyrithione Zinc</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>259</active_ingredient_id>
+    <active_ingredient_description>Coal Tar</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>260</active_ingredient_id>
+    <active_ingredient_description>Ketoconazole</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>261</active_ingredient_id>
+    <active_ingredient_description>Soup Diet</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>262</active_ingredient_id>
+    <active_ingredient_description>Hydroxyethylrutosides</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>263</active_ingredient_id>
+    <active_ingredient_description>Red Clover</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>264</active_ingredient_id>
+    <active_ingredient_description>Cimicifuga Racemosa</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>265</active_ingredient_id>
+    <active_ingredient_description>Rock Rose/Impatiens/Clematis/Star of Bethlehem/Cherry Plum</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>266</active_ingredient_id>
+    <active_ingredient_description>Rock Rose/Impatiens/Clematis/Star of Bethlehem/Cherry Plum/White Chesnut</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>267</active_ingredient_id>
+    <active_ingredient_description>Rosehip</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>268</active_ingredient_id>
+    <active_ingredient_description>Permethrin</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>269</active_ingredient_id>
+    <active_ingredient_description>Sodium Bicarbonate</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>270</active_ingredient_id>
+    <active_ingredient_description>Sodium Bicarbonate 840mg</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>271</active_ingredient_id>
+    <active_ingredient_description>Hair Wax</active_ingredient_description>
+  </Ingredient>
+  <Ingredient>
+    <active_ingredient_id>272</active_ingredient_id>
+    <active_ingredient_description>Colloidial Silver</active_ingredient_description>
+  </Ingredient>
+</NewDataSet>

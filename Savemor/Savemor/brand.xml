@@ -1,0 +1,339 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Brand>
+    <id>17</id>
+    <name>Pfizer Pty Ltd</name>
+  </Brand>
+  <Brand>
+    <id>18</id>
+    <name>Natio</name>
+  </Brand>
+  <Brand>
+    <id>19</id>
+    <name>Omron</name>
+  </Brand>
+  <Brand>
+    <id>20</id>
+    <name>Omega Pharma</name>
+  </Brand>
+  <Brand>
+    <id>21</id>
+    <name>A&amp;D Mercury</name>
+  </Brand>
+  <Brand>
+    <id>22</id>
+    <name>New Sup</name>
+  </Brand>
+  <Brand>
+    <id>23</id>
+    <name>Schwarzkopf</name>
+  </Brand>
+  <Brand>
+    <id>24</id>
+    <name>Savemor</name>
+  </Brand>
+  <Brand>
+    <id>25</id>
+    <name>Kimberly Clark Healthcare</name>
+  </Brand>
+  <Brand>
+    <id>26</id>
+    <name>Natural Health Products Pty Ltd</name>
+  </Brand>
+  <Brand>
+    <id>27</id>
+    <name>Wyeth Pty Ltd</name>
+  </Brand>
+  <Brand>
+    <id>28</id>
+    <name>Blackmores</name>
+  </Brand>
+  <Brand>
+    <id>29</id>
+    <name>Merck Sharp &amp; Dohme</name>
+  </Brand>
+  <Brand>
+    <id>30</id>
+    <name>Sigma</name>
+  </Brand>
+  <Brand>
+    <id>31</id>
+    <name>Health One</name>
+  </Brand>
+  <Brand>
+    <id>32</id>
+    <name>Bayer Pharmaceutical</name>
+  </Brand>
+  <Brand>
+    <id>33</id>
+    <name>Avent</name>
+  </Brand>
+  <Brand>
+    <id>34</id>
+    <name>AFT Pharmaceuticals</name>
+  </Brand>
+  <Brand>
+    <id>35</id>
+    <name>Aspen Pharmacare Aust P/L</name>
+  </Brand>
+  <Brand>
+    <id>36</id>
+    <name>Alcon Laboratories</name>
+  </Brand>
+  <Brand>
+    <id>37</id>
+    <name />
+  </Brand>
+  <Brand>
+    <id>38</id>
+    <name>Sanofi Aventis</name>
+  </Brand>
+  <Brand>
+    <id>39</id>
+    <name>Nature's Own</name>
+  </Brand>
+  <Brand>
+    <id>40</id>
+    <name>Curash</name>
+  </Brand>
+  <Brand>
+    <id>41</id>
+    <name>Nappy Sacks</name>
+  </Brand>
+  <Brand>
+    <id>42</id>
+    <name>Farex</name>
+  </Brand>
+  <Brand>
+    <id>43</id>
+    <name>Elizabeth Arden</name>
+  </Brand>
+  <Brand>
+    <id>44</id>
+    <name>Giorgio Armani</name>
+  </Brand>
+  <Brand>
+    <id>45</id>
+    <name>Estee Lauder</name>
+  </Brand>
+  <Brand>
+    <id>46</id>
+    <name>Beyonce</name>
+  </Brand>
+  <Brand>
+    <id>47</id>
+    <name>Britney Spears</name>
+  </Brand>
+  <Brand>
+    <id>48</id>
+    <name>Revlon</name>
+  </Brand>
+  <Brand>
+    <id>49</id>
+    <name>Christian Dior</name>
+  </Brand>
+  <Brand>
+    <id>50</id>
+    <name>Calvin Klein</name>
+  </Brand>
+  <Brand>
+    <id>51</id>
+    <name>Davidoff</name>
+  </Brand>
+  <Brand>
+    <id>52</id>
+    <name>David Beckham </name>
+  </Brand>
+  <Brand>
+    <id>53</id>
+    <name>Giorgio Beverly Hills</name>
+  </Brand>
+  <Brand>
+    <id>54</id>
+    <name>Gucci</name>
+  </Brand>
+  <Brand>
+    <id>55</id>
+    <name>Halle Berry</name>
+  </Brand>
+  <Brand>
+    <id>56</id>
+    <name>Hugo Boss</name>
+  </Brand>
+  <Brand>
+    <id>57</id>
+    <name>Jean Paul Gaultier</name>
+  </Brand>
+  <Brand>
+    <id>58</id>
+    <name>Joop</name>
+  </Brand>
+  <Brand>
+    <id>59</id>
+    <name>Justin Beiber</name>
+  </Brand>
+  <Brand>
+    <id>60</id>
+    <name>Katy Perry</name>
+  </Brand>
+  <Brand>
+    <id>61</id>
+    <name>Kim Kardashian</name>
+  </Brand>
+  <Brand>
+    <id>62</id>
+    <name>Kylie Minogue</name>
+  </Brand>
+  <Brand>
+    <id>63</id>
+    <name>Lady Gaga</name>
+  </Brand>
+  <Brand>
+    <id>64</id>
+    <name>Lancome</name>
+  </Brand>
+  <Brand>
+    <id>65</id>
+    <name>Jennifer Lopez</name>
+  </Brand>
+  <Brand>
+    <id>66</id>
+    <name>Lomani</name>
+  </Brand>
+  <Brand>
+    <id>67</id>
+    <name>Marc Jacobs</name>
+  </Brand>
+  <Brand>
+    <id>68</id>
+    <name>L'Oreal</name>
+  </Brand>
+  <Brand>
+    <id>69</id>
+    <name>Old Spice</name>
+  </Brand>
+  <Brand>
+    <id>70</id>
+    <name>Yves Saint Laurent</name>
+  </Brand>
+  <Brand>
+    <id>71</id>
+    <name>Rihanna</name>
+  </Brand>
+  <Brand>
+    <id>72</id>
+    <name>Sarah Jessica Parker</name>
+  </Brand>
+  <Brand>
+    <id>73</id>
+    <name>Taylor Swift</name>
+  </Brand>
+  <Brand>
+    <id>74</id>
+    <name>Escentials</name>
+  </Brand>
+  <Brand>
+    <id>75</id>
+    <name>Vanderbilt</name>
+  </Brand>
+  <Brand>
+    <id>76</id>
+    <name>Vera Wang</name>
+  </Brand>
+  <Brand>
+    <id>77</id>
+    <name>Heinz Nurture</name>
+  </Brand>
+  <Brand>
+    <id>78</id>
+    <name>Huggies</name>
+  </Brand>
+  <Brand>
+    <id>79</id>
+    <name>Swisse Health Products</name>
+  </Brand>
+  <Brand>
+    <id>80</id>
+    <name>Amolin</name>
+  </Brand>
+  <Brand>
+    <id>81</id>
+    <name>Hartley's</name>
+  </Brand>
+  <Brand>
+    <id>82</id>
+    <name>Bonjela</name>
+  </Brand>
+  <Brand>
+    <id>83</id>
+    <name>Brauer</name>
+  </Brand>
+  <Brand>
+    <id>84</id>
+    <name>Chemists' Own</name>
+  </Brand>
+  <Brand>
+    <id>85</id>
+    <name>Snugglers</name>
+  </Brand>
+  <Brand>
+    <id>86</id>
+    <name>Kotex U</name>
+  </Brand>
+  <Brand>
+    <id>87</id>
+    <name>Johnson's</name>
+  </Brand>
+  <Brand>
+    <id>88</id>
+    <name>Cenovis</name>
+  </Brand>
+  <Brand>
+    <id>89</id>
+    <name>Centrum</name>
+  </Brand>
+  <Brand>
+    <id>90</id>
+    <name>Vicks</name>
+  </Brand>
+  <Brand>
+    <id>91</id>
+    <name>Olay</name>
+  </Brand>
+  <Brand>
+    <id>92</id>
+    <name>Bepanthen</name>
+  </Brand>
+  <Brand>
+    <id>93</id>
+    <name>Key Sun Laboratories</name>
+  </Brand>
+  <Brand>
+    <id>94</id>
+    <name>Benefiber</name>
+  </Brand>
+  <Brand>
+    <id>95</id>
+    <name>Infacol</name>
+  </Brand>
+  <Brand>
+    <id>96</id>
+    <name>Ostelin</name>
+  </Brand>
+  <Brand>
+    <id>97</id>
+    <name>3M Pharmaceuticals</name>
+  </Brand>
+  <Brand>
+    <id>98</id>
+    <name>Ethical Nutrients</name>
+  </Brand>
+  <Brand>
+    <id>99</id>
+    <name>Galderma</name>
+  </Brand>
+  <Brand>
+    <id>100</id>
+    <name>Clearasil</name>
+  </Brand>
+</NewDataSet>

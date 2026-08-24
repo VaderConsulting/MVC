@@ -1,0 +1,176 @@
+﻿@model Savemor.Models.Product
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Product</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.UPI)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.UPI)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.PrivateLabelUPI)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.PrivateLabelUPI)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Name)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Name)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Supplier)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Supplier)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Image)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Image)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Thumbnail)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Thumbnail)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Measure)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Measure)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Units)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Units)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Price)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Price)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.OppositionPrice)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.OppositionPrice)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.RecommendedPrice)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.RecommendedPrice)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.SpecialPrice)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.SpecialPrice)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Active)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Active)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.SUSMP)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.SUSMP)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Rank)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Rank)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Limit)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Limit)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.InStoreOnly)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.InStoreOnly)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Description)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Description)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.KnownValueItem)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.KnownValueItem)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.CustomString1)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.CustomString1)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.CustomString2)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.CustomString2)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.CustomString3)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.CustomString3)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.CustomString4)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.CustomString4)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

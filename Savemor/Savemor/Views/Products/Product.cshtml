@@ -1,0 +1,178 @@
+﻿@model IEnumerable<Savemor.Models.Product>
+
+@{
+    ViewBag.Title = "Product";
+
+    // Get the top-level categories
+    //var Categories =
+    //    from c in Model
+    //    where c.Parent == 0
+    //    orderby c.SortOrder
+    //    select c;
+
+    // Get the products for the selected category
+    var Products =
+        from p in Model
+        where p.Active == true
+        orderby p.Name
+        select p;
+
+    // Turn this list of categories into an actual list (Inherits from IEnumerable)
+    var ProductList = Products.ToList();
+}
+<table class="CategoryMenu">
+    <tr class="emptyrow">
+        <td class="emptycell">&nbsp;</td>
+	</tr>
+	<tr>
+		<td class="CategorySpace">&nbsp;</td>
+		<td class="CategoryItem"><a href="#">Item1</a></td>
+		<td class="CategoryItem"><a href="#">Item2</a></td>
+		<td class="CategoryItem"><a href="#">Item3</a></td>
+		<td class="CategoryItem"><a href="#">Item4</a></td>
+		<td class="CategoryItem"><a href="#">Item5</a></td>
+		<td class="CategoryItem"><a href="#">Item6</a></td>
+		<td class="CategoryItem"><a href="#">Item7</a></td>
+		<td class="CategoryItem"><a href="#">Item8</a></td>
+		<td class="CategoryItem"><a href="#">Item9</a></td>
+		<td class="CategorySpace">&nbsp;</td>
+	</tr>
+</table>
+<table class="products">
+    <tr class="productspagingbar">
+        <td class="productspagingbar" colspan="4">&nbsp;</td>
+        <td class="productsdropdownbox">
+            <select class="SelectionDropdownBox">
+                <option value="ViewAll" selected="selected">View All</option>
+                <option value="Condition">Condition</option>
+                <option value="BrandName">Brand name</option>
+                <option value="Category">Category</option>
+            </select>
+        </td>
+    </tr>
+    <tr class="greenbackground">
+        <td colspan="4" class="topborder4columns">&nbsp;</td>
+        <td rowspan="999" class="selectionlist">
+            <div class="selectionlist">
+                Antioxidants<br />
+                Antioxidants<br />
+                Antioxidants<br />
+                Antioxidants<br />
+                Antioxidants<br />
+                Antioxidants<br />
+                Antioxidants<br />
+                Antioxidants<br />
+                Antioxidants<br />
+                Antioxidants<br />
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td class="productimage">
+            <a href="@Url.Action("Product", "Products", new RouteValueDictionary(new { ProductID = ProductList[0].ID }))">
+                <img class="productmedium" src="../images/product/@Html.DisplayFor(modelItem => ProductList[0].Image)" alt="@Html.DisplayFor(modelItem => ProductList[0].Name) image" />
+            </a>
+        </td>
+        <td class="productinfo" colspan="3">
+            <table class="productdetails">
+			    <tr>
+				    <td style="width:20px">&nbsp;</td>
+                    <td>&nbsp;</td>
+			    </tr>
+                <tr>
+                    <td style="width:20px">&nbsp;</td>
+				    <td><span class="productnamelargegreen">@Html.DisplayFor(modelItem => ProductList[0].Name)</span></td>
+			    </tr>
+			    <tr>
+                    <td style="width:20px">&nbsp;</td>
+				    <td>Availability: In Stock</td>
+			    </tr>
+			    <tr>
+                    <td style="width:20px">&nbsp;</td>
+				    <td><span class="productprice">Our Price: $11.95 AU</span></td>
+			    </tr>
+			    <tr>
+                    <td style="width:20px">&nbsp;</td>
+				    <td><span class="saveamount">Save up to: $1.95 AU</span></td>
+			    </tr>
+			    <tr>
+                    <td style="width:20px">&nbsp;</td>
+				    <td>Shipping: AU $8.95</td>
+			    </tr>
+			    <tr>
+                    <td style="width:20px">&nbsp;</td>
+				    <td>Delivery: In stock usually ships within 24 hours. 5 to 7 days if not in stock.</td>
+			    </tr>
+			    <tr>
+                    <td style="width:20px">&nbsp;</td>
+				    <td class="productlargebuttons">
+				    <img src="../images/related_p.png" />
+				    <img src="../images/similar_p.png" />
+				    <img src="../images/more_i.png" />
+				    <img src="../images/add_c.png" />
+				    <hr>
+				    </td>
+			    </tr>
+			    <tr>
+                    <td style="width:20px">&nbsp;</td>
+				    <td>IMPORTANT INFORMATION</td>
+			    </tr>
+			    <tr>
+                    <td style="width:20px">&nbsp;</td>
+				    <td>Disclaimers go here.</td>
+			    </tr>
+		    </table>
+        </td>
+    </tr>
+    <tr>
+        <td class="relatedsimilarproductsbar" colspan="2">Related or Similar Products</td>
+        <td class="productspagingbargreen" colspan="2">Showing 1-20 of 200 products</td>
+    </tr>
+    @{
+        for (int i = 0; i <= ProductList.Count - 1; i += 4)
+        {
+            <tr class="greentopborder">
+                @{
+                    for (int j = i; j < i + 4; j++)
+                    {
+                        if (j< ProductList.Count)
+                        {
+                            <td class="productimage">
+                                <a href="@Url.Action("Product", "Products", new RouteValueDictionary(new { ProductID = ProductList[j].ID }))">
+                                    <img class="productmedium" src="../images/product/@Html.DisplayFor(modelItem => ProductList[j].Image)" alt="@Html.DisplayFor(modelItem => ProductList[j].Name) image" />
+                                </a>
+                            </td>
+                        }
+                    }
+                }
+            </tr>
+            <tr>
+                @{
+                    for (int j = i; j < i + 4; j++)
+                    {
+                        if (j< ProductList.Count)
+                        {
+                            <td class="productinfo">
+                                <span class="productname">@Html.DisplayFor(modelItem => ProductList[j].Name)</span><br />
+                                @{
+                                    decimal Price = ProductList[j].Price;
+                                    decimal RecommendedPrice = ProductList[j].RecommendedPrice;
+                                    decimal Saving = RecommendedPrice - Price;
+                                    string SaveText = "Save up to $" + Saving;
+                            
+                                    if (Saving <= 0m) 
+                                    {
+                                        SaveText = "";
+                                    }
+                            
+                                    <span class="productprice">Our price: $@Html.DisplayFor(modelItem => ProductList[j].Price)</span><br />
+                                    <span class="saveamount">@SaveText</span><br />
+                                }        
+                            </td>
+                        }
+                    }
+                }
+            </tr>
+        }
+    }
+</table>
