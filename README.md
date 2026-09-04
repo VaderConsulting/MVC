@@ -22,6 +22,10 @@ VS 2012 C# working copy: Pharmacy Assistant 1.3.4 is a .NET 3.5 WinForms MDI tha
 
 Open `Savemor/Pharmacy Assistant.sln` in Visual Studio.
 
+## Requirements
+
+- Visual Studio 2012, .NET Framework 3.5, .NET Framework 4.5
+
 ## Attribution and provenance
 
 - **Assembly company:** Vader Consulting
